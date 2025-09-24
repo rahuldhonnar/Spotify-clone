@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .body {
+            height: 100%;
+            width: 100%;
+            background-color: rgb(5, 5, 5);
+            text-align: center;
+            justify-content: center;
+            justify-items: center;
+        }
+
+        .box1 {
+            height: 800px;
+            width: 800px;
+            justify-content: center;
+            justify-items: center;
+        }
+        .box2 {
+            height: 600px;
+            width: 600px;
+        }
+
+        #Country {
+            color: black;
+        }
+
+        select {
+            width: 150px;
+            height: 50px;
+            color: black;
+            margin-top: 10%;
+        }
+
+        input[type="text"] {
+            height: 50px;
+            width: 400px;
+            margin: 20px;
+        }
+
+        .button {
+            height: 40px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        input[type="submit"] {
+            height: 40px;
+            width: 100px;
+            border-radius: 20px;
+            background-color: rgb(63, 182, 103);
+            font-weight: bold;
+            /* margin: 5px; */
+        }
+        h4 {
+            margin-right: 60%;
+            color: white;
+        }
+        h3{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <div class="box1">
+            <div class="box2">
+                
+                <h3 style="padding-top: 50px;">Enter Phone Number</h3>
+                <form action="">
+                    <select name="country" id="Country">
+                        <option value="">+91</option>
+                        <option value="">+92</option>
+                        <option value="">+69</option>
+                        <option value="">+56</option>
+                        <option value="">+49</option>
+                        <option value="">+52</option>
+                        <option value="">+852</option>
+                        <option value="">+48</option>
+                        <option value="">+34</option>
+                        <option value="">+93</option>
+                        <option value="">+213</option>
+                        <option value="">+355</option>
+                    </select>
+                    <input type="text" placeholder="Enter your Number" required>
+                    <br><br>
+                    <div class="button">
+                        <input type="checkbox" name="" id="checkbox">
+                        <h4> Remember me</h4>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

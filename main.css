@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: black;
+  font-family: sans-serif;
+   overflow: hidden;
+}
+.navbar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 0 20px;
+  z-index: 1000;
+}
+.navbar .logo-img {
+  height: 50px;
+}
+.logo {
+  font-size: 25px;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav-links .sign_in {
+  padding: 10px 15px;
+  background-color: rgb(42, 206, 42);
+  border-radius: 20px;
+  border: 2px solid white;
+  color: black;
+  font-weight: bold;
+}
+.nav-links .btn:hover {
+  background-color: rgb(34, 168, 34);
+}
+.search {
+  width: 500px;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: rgb(36, 33, 33);
+  color: white;
+}
+.main {
+  display: flex;
+  margin-top: 80px;
+  padding: 20px;
+  background-color: black;
+  
+}              
+.sidebar {
+  width: 400px;
+  height: 500px;
+  background-color: black;
+  border-radius: 20px;
+  margin-right: 20px;
+  position: relative;
+  
+}
+.top{
+    display: flex;
+    height: 70px;
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.list1{
+    overflow-y: auto;
+   height: 120px;
+    
+}
+.playlist-box{
+    height: 120px;
+    margin: 10px;
+}
+.playlist-box2{
+    height: 120px;
+    margin-top: 50px;
+     /* margin: 10px; */
+}
+.create-btn{
+    background-color: aliceblue;
+    color: black;
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: bolder;
+}
+.footer-sidebar {
+    margin-top: 50px;
+    gap: 50px;
+    align-items: center;
+    letter-spacing: 1px;
+}
+.lang-btn{
+  height: 30px;
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 3pc;
+}
+.section{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.content {
+  flex: 1;
+  height: 500px;
+  overflow-y: auto;
+  background-color: black;
+  padding-right: 10px;
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin-left: 40px;
+}
+ h4 {
+  cursor: pointer;
+}
+.music-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  /* overflow-x: scroll; */
+  
+}
+.music{
+   height: 240px;
+  width: 120px;
+}
+.music :hover{
+  height: 70px;
+  width: 70px;
+  margin-bottom: 30%;
+  background-image: url('./Assets/butn.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.music-item {
+  height: 150px;
+  width: 120px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+ p{
+  margin-top: 10px;
+  font-size: small;
+ }
+ h5{
+  margin-top: 10px;
+  
+ }
+ h6{
+  margin-top: 10px;
+  
+ }
+#T1{
+  background-image: url(./Assets/1st.jpeg);
+  background-size: cover;
+}
+#T2{
+  background-image: url(./Assets/t2.jpeg);
+  background-size: cover;
+}
+#T3{
+  background-image: url(./Assets/t3.jpeg);
+  background-size: cover;
+}
+#T4{
+  background-image: url(./Assets/t4.jpeg);
+  background-size: cover;
+}
+#T5{
+  background-image: url(./Assets/t5.jpeg);
+  background-size: cover;
+}
+#p1{
+  background-image: url(./Assets/p1.jpeg);
+  background-size: cover;
+}
+#p2{
+  background-image: url(./Assets/p2.jpeg);
+  background-size: cover;
+}
+#p3{
+  background-image: url(./Assets/p3.jpeg);
+  background-size: cover;
+}
+#p4{
+  background-image: url(./Assets/p4.jpeg);
+  background-size: cover;
+}
+#p5{
+  background-image: url(./Assets/p5.jpeg);
+  background-size: cover;
+}
+#A1{
+  background-image: url(./Assets/a1.jpeg);
+  background-size: cover;
+}
+#A2{
+  background-image: url(./Assets/a2.jpeg);
+  background-size: cover;
+}
+#A3{
+  background-image: url(./Assets/a3.jpeg);
+  background-size: cover;
+}
+#A4{
+  background-image: url(./Assets/a4.jpeg);
+  background-size: cover;
+}
+#A5{
+  background-image: url(./Assets/a5.jpeg);
+  background-size: cover;
+}
+#R1{
+background-image: url(./Assets/r1.jpeg);
+  background-size: cover;
+}
+#R2{
+background-image: url(./Assets/r2.jpeg);
+  background-size: cover;
+}
+#R3{
+background-image: url(./Assets/r3.jpeg);
+  background-size: cover;
+}
+#R4{
+background-image: url(./Assets/r4.jpeg);
+  background-size: cover;
+}
+#R5{
+background-image: url(./Assets/r5.jpeg);
+  background-size: cover;
+}
+#C1{
+background-image: url(./Assets/Featured\ Charts1.jpeg);
+  background-size: cover;
+}
+#C2{
+background-image: url(./Assets/Featured\ Charts2.jpeg);
+  background-size: cover;
+}
+#C3{
+background-image: url(./Assets/Featured\ Charts3.jpeg);
+  background-size: cover;
+}
+#C4{
+background-image: url(./Assets/Featured\ Charts4.jpeg);
+  background-size: cover;
+}
+#C5{
+background-image: url(./Assets/Featured\ Charts6.jpeg);
+  background-size: cover;
+}
+#I1{
+background-image: url(./Assets/I4.jpeg);
+  background-size: cover;
+}
+#I2{
+background-image: url(./Assets/I.jpeg);
+  background-size: cover;
+}
+#I3{
+background-image: url(./Assets/I1.jpeg);
+  background-size: cover;
+}
+#I4{
+background-image: url(./Assets/I2.jpeg);
+  background-size: cover;
+}
+#I5{
+background-image: url(./Assets/I3.jpeg);
+  background-size: cover;
+}
+.music-artist {
+  height: 150px;
+  width: 120px;
+  background-color: antiquewhite;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.footer{
+  display:  flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  a{
+ font-size: small;
+  color: rgb(143, 134, 134);
+  }
+}
+#footer1{
+  height: 200px;
+  width: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+#footer1 a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#footer2{
+  height: 200px;
+  width: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+#footer2 a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#footer3{
+  height: 200px;
+  width: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.foter-heading{
+  font-size: 20px;
+  margin-bottom: 10px;;
+}
+#footer3 a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#footer4{
+  height: 200px;
+  width: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+#footer4 a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#footer5{
+  height: 200px;
+  width: 180px;
+  i{
+  font-size: 40px;
+  }
+}
+.line{
+  margin-bottom: 50px;
+}
+#footer-1{
+  height: 100px;
+  .p1{
+    font-size: 15px;
+  }
+}
